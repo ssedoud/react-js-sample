@@ -1,9 +1,16 @@
 In the  reactJsSample/src directory
 
+#Install nodejs
+sudo apt-get install nodejs
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+#Install npm command
+sudo apt-get install npm
+
 #Install npm
 sudo npm install npm -g
 
-#Create a new npm project
+#Create a new npm project (from reactJsSample)
 npm init
 
 Attention please ! You'll need to specify main.js as entry point.
